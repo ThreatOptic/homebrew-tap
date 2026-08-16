@@ -2,15 +2,17 @@
 
 ## How do I install these formulae?
 
-`brew install threatoptic/tap/<formula>`
+```bash
+brew install threatoptic/tap/threatoptic
+```
 
-Or `brew tap threatoptic/tap` and then `brew install <formula>`.
+Or `brew tap threatoptic/tap` and then `brew install threatoptic`.
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
 tap "threatoptic/tap"
-brew "<formula>"
+brew "threatoptic/tap/threatoptic"
 ```
 
 ## Documentation
